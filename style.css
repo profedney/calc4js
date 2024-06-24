@@ -1,0 +1,69 @@
+/* CSS para estilizar a calculadora */
+
+/* Define o fundo preto para a página */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal com a calculadora */
+.container {
+    background-color: #333; /* Cor de fundo para o container */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo para os títulos */
+h2 {
+    margin-top: 0;
+}
+
+/* Estilo para os rótulos dos campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para os campos de entrada */
+input {
+    padding: 5px;
+    width: calc(100% - 12px); /* Ajusta o tamanho para o input */
+    margin-bottom: 10px;
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #1518c5; /* Cor de fundo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão pressionado */
+button:active {
+    background-color: #000d6c;
+}
+
+/* Estilo para a div que exibe o resultado */
+#receptor {
+    color: bisque;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #424242;
+    border-radius: 5px;
+}
